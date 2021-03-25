@@ -1,6 +1,6 @@
 # IOS_Native_NotesApp
 
-## This app building only for learning reasons, this app still building and will change, and i will add new screenshots
+### This app building only for learning reasons, this app still building and will change, and i will add new screenshots, and I will try implement all funcionality represented in original app, I think it will be nice practice for me)
 
 # Usage
 
