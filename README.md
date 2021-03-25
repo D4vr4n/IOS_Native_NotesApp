@@ -1,5 +1,11 @@
 # IOS_Native_NotesApp
+
 ## This app building only for learning reasons, this app still building and will change, and i will add new screenshots
+
+# Usage
+
+### Download Project folder and open folder path in terminal, type ```pod install```, it will install all necessary pods that i have in my Podfile, installed and used, and just run simulator and run the app from XCode
+
 # Screenshots
 
 <img src="https://github.com/D4vr4n/IOS_Native_NotesApp/blob/main/images/Simulator%20Screen%20Shot%20-%20iPhone%2012%20Pro%20Max%20-%202021-03-26%20at%2000.15.21.png" width="180" height="400" />
