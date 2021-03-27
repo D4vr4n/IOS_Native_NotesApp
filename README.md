@@ -12,7 +12,7 @@
 
 ### Second Commit (FolderDetailScreen added and shows navbar title depended on folder name)
 <p float="left">
-  <img src="https://github.com/D4vr4n/IOS_Native_NotesApp/blob/main/images/1.png" width="150" />
-  <img src="https://github.com/D4vr4n/IOS_Native_NotesApp/blob/main/images/2.png" width="150" /> 
-  <img src="https://github.com/D4vr4n/IOS_Native_NotesApp/blob/main/images/3.png" width="150" />
+  <img src="https://github.com/D4vr4n/IOS_Native_NotesApp/blob/main/images/1.png" width="180" height="400" />
+  <img src="https://github.com/D4vr4n/IOS_Native_NotesApp/blob/main/images/2.png" width="180" height="400" /> 
+  <img src="https://github.com/D4vr4n/IOS_Native_NotesApp/blob/main/images/3.png" width="180" height="400" />
 </p>
