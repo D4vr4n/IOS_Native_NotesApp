@@ -7,5 +7,6 @@ target 'NotesApp' do
 
   # Pods for NotesApp
   pod 'RealmSwift', '>= 0.92.3'
+  pod 'SnapKit' 
 
 end

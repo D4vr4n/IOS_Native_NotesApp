@@ -54,6 +54,7 @@
                     <connections>
                         <outlet property="searchBar" destination="iUR-8X-ujr" id="Fgj-Qv-ZvS"/>
                         <outlet property="tableView" destination="7ux-Sq-nbV" id="xhh-84-KZ5"/>
+                        <segue destination="JYw-Tv-jUL" kind="show" identifier="FolderDetailViewController" id="Jkc-8c-Pr4"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -63,7 +64,7 @@
         <!--Заметки-->
         <scene sceneID="slK-yV-D69">
             <objects>
-                <viewController id="JYw-Tv-jUL" customClass="FolderDetailViewController" customModule="NotesApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="FolderDetailViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="JYw-Tv-jUL" customClass="FolderDetailViewController" customModule="NotesApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="BEa-Jr-dJb">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

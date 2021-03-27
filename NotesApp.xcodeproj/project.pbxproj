@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		330B2585260FB94A002CF6D2 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 330B2584260FB94A002CF6D2 /* Extension.swift */; };
 		332E0BF5260CF81E001BE0D9 /* FolderDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332E0BF4260CF81E001BE0D9 /* FolderDetailViewController.swift */; };
 		332E0BFD260CFE68001BE0D9 /* NotesFolderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332E0BFB260CFE68001BE0D9 /* NotesFolderTableViewCell.swift */; };
 		332E0C01260D00DE001BE0D9 /* FolderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332E0C00260D00DE001BE0D9 /* FolderModel.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		330B2584260FB94A002CF6D2 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		332E0BF4260CF81E001BE0D9 /* FolderDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolderDetailViewController.swift; sourceTree = "<group>"; };
 		332E0BFB260CFE68001BE0D9 /* NotesFolderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesFolderTableViewCell.swift; sourceTree = "<group>"; };
 		332E0C00260D00DE001BE0D9 /* FolderModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolderModel.swift; sourceTree = "<group>"; };
@@ -48,6 +50,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		330B257A260FB4D8002CF6D2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				330B257B260FB4F3002CF6D2 /* Cells */,
+				33919477260CDFBB005C9F25 /* ViewController.swift */,
+				332E0BF4260CF81E001BE0D9 /* FolderDetailViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		330B257B260FB4F3002CF6D2 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				332E0BFB260CFE68001BE0D9 /* NotesFolderTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		330B257C260FB511002CF6D2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				332E0C00260D00DE001BE0D9 /* FolderModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		330B2583260FB938002CF6D2 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				330B2584260FB94A002CF6D2 /* Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		33919467260CDFBB005C9F25 = {
 			isa = PBXGroup;
 			children = (
@@ -69,16 +105,15 @@
 		33919472260CDFBB005C9F25 /* NotesApp */ = {
 			isa = PBXGroup;
 			children = (
+				330B2583260FB938002CF6D2 /* Extensions */,
+				330B257C260FB511002CF6D2 /* Models */,
 				33919473260CDFBB005C9F25 /* AppDelegate.swift */,
 				33919475260CDFBB005C9F25 /* SceneDelegate.swift */,
-				33919477260CDFBB005C9F25 /* ViewController.swift */,
+				330B257A260FB4D8002CF6D2 /* Views */,
 				33919479260CDFBB005C9F25 /* Main.storyboard */,
 				3391947C260CDFBD005C9F25 /* Assets.xcassets */,
 				3391947E260CDFBD005C9F25 /* LaunchScreen.storyboard */,
 				33919481260CDFBD005C9F25 /* Info.plist */,
-				332E0BF4260CF81E001BE0D9 /* FolderDetailViewController.swift */,
-				332E0BFB260CFE68001BE0D9 /* NotesFolderTableViewCell.swift */,
-				332E0C00260D00DE001BE0D9 /* FolderModel.swift */,
 			);
 			path = NotesApp;
 			sourceTree = "<group>";
@@ -216,6 +251,7 @@
 			files = (
 				33919478260CDFBB005C9F25 /* ViewController.swift in Sources */,
 				332E0C01260D00DE001BE0D9 /* FolderModel.swift in Sources */,
+				330B2585260FB94A002CF6D2 /* Extension.swift in Sources */,
 				33919474260CDFBB005C9F25 /* AppDelegate.swift in Sources */,
 				332E0BFD260CFE68001BE0D9 /* NotesFolderTableViewCell.swift in Sources */,
 				332E0BF5260CF81E001BE0D9 /* FolderDetailViewController.swift in Sources */,
