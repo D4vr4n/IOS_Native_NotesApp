@@ -10,7 +10,7 @@
 ### First Commit(Main Screen added)
 <img src="https://github.com/D4vr4n/IOS_Native_NotesApp/blob/main/images/Simulator%20Screen%20Shot%20-%20iPhone%2012%20Pro%20Max%20-%202021-03-26%20at%2000.15.21.png" width="180" height="400" />
 
-### Second Commit (FolderDeatilScreen added and show navbar title depended on folder name)
+### Second Commit (FolderDetailScreen added and shows navbar title depended on folder name)
 <p float="left">
   <img src="https://github.com/D4vr4n/IOS_Native_NotesApp/blob/main/images/1.png" width="150" />
   <img src="https://github.com/D4vr4n/IOS_Native_NotesApp/blob/main/images/2.png" width="150" /> 
