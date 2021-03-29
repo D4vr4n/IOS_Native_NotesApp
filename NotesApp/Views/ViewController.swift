@@ -20,7 +20,7 @@ class ViewController: UIViewController{
         configure()
         searchBar.layer.borderWidth = 10
         searchBar.layer.borderColor = UIColor.white.cgColor
-        searchBar.searchTextField.layer.cornerRadius = 20
+        searchBar.searchTextField.layer.cornerRadius = 10
         searchBar.searchTextField.layer.masksToBounds = true
         
         self.tableView.dataSource = self
@@ -40,13 +40,13 @@ class ViewController: UIViewController{
         self.tableView.bottomAnchor.constraint(equalTo: self.view.bottomAnchor).isActive = true
     }
     
-//    MARK --Adding folders to ouer list
+    //    MARK --Adding folders to ouer list
     func configure(){
         models.append(Section(title: "General", folders: [
-            FolderModel(title: "Заметки", icon: UIImage(systemName: "folder")!, iconBackgroundColor: .white){
+            FolderModel(title: "Заметки", icon: UIImage(systemName: "folder")!, iconBackgroundColor: .white, notes: [Notes(noteTitle: "Title1", noteDesc: "desc1")]){
                 print("First Cell Tapped!")
             },
-            FolderModel(title: "Удаленные", icon: UIImage(systemName: "trash")!, iconBackgroundColor: .white){
+            FolderModel(title: "Удаленные", icon: UIImage(systemName: "trash")!, iconBackgroundColor: .white, notes: [Notes(noteTitle: "Title2", noteDesc: "desc2")]){
                 
             },
         ]))
@@ -71,6 +71,14 @@ class ViewController: UIViewController{
         //MARK -- Handling Add Button Tap
         let addAction = UIAlertAction(title: "Сохранить", style: .default) { (UIAlertAction) -> Void in
             
+            self.models.append(Section(title: "General", folders: [
+                FolderModel(title: alertVC.textFields?[0].text ?? "", icon: UIImage(systemName: "folder")!, iconBackgroundColor: .white, notes: [Notes(noteTitle: "Title3", noteDesc: "desc3")]){
+                    print("Third Cell Tapped!")
+                }
+            ]))
+            
+            self.tableView.reloadData()
+            
         }
         
         addAction.isEnabled = false
@@ -89,6 +97,8 @@ class ViewController: UIViewController{
         present(alertVC, animated: true, completion: nil)
         
     }
+    
+    
     @IBAction func addNoteTapped(_ sender: Any) {
     }
 }

@@ -18,5 +18,12 @@ struct FolderModel {
     let title: String
     let icon: UIImage
     let iconBackgroundColor: UIColor
+    let notes: [Notes]
     let handler: (() -> Void)
+}
+
+
+struct Notes {
+    let noteTitle: String
+    let noteDesc: String
 }
